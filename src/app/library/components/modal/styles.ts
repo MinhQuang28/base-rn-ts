@@ -1,0 +1,25 @@
+import {StyleSheet} from 'react-native';
+export const styles = StyleSheet.create({
+  modal: {
+    ...StyleSheet.absoluteFillObject,
+    zIndex: 9999,
+  },
+  content: {
+    flex: 1,
+    justifyContent: 'center',
+  },
+  wrapGesture: {
+    paddingVertical: 6,
+    alignSelf: 'center',
+  },
+  WarpStyleModal: {
+    flexDirection: 'column',
+    padding: 2,
+  },
+  anchor: {
+    height: 5,
+    width: 50,
+    borderRadius: 10,
+    backgroundColor: 'black',
+  },
+});
