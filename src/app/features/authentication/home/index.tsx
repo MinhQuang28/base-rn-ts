@@ -1,13 +1,6 @@
 import React, {memo, useEffect, useRef} from 'react';
 import isEqual from 'react-fast-compare';
-import {
-  Dimensions,
-  TouchableOpacity,
-  StatusBar,
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
+import {TouchableOpacity, StyleSheet, Text, View} from 'react-native';
 import {ActionSheet} from '@components';
 
 const HomeComponent = () => {
